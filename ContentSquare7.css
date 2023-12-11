@@ -1,0 +1,62 @@
+/* ContentSquare7.css */
+.content-square6 {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    margin-top:-500px;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tab {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    color: #b0b0b0;
+    border-radius: 0px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s, color 0.3s;
+    width:400px;
+}
+
+.tab.active {
+    background-color: #ddd;
+    color: #32CD32;
+    border-color: #888;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tab-content {
+    display: flex;
+    flex-direction: column; /* Display buttons in a column */
+}
+
+.tab-content button {
+    margin-bottom: 10px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    background-color: #1f9c1f;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.tab-content button:hover {
+    background-color: #147214;
+}
+
+h33{
+    font-size:25px;
+    color:green; 
+    font-weight:bold   
+    }

@@ -1,0 +1,70 @@
+/* ContentRectangle.css */
+.content-rectangle {
+    width: 1200px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+    margin: 10px;
+    margin-top: -300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5); /* Box shadow for all sides */
+  }
+  
+  .hspace{
+   width:50px;
+
+  }
+  .horizontal-drop-downs {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .horizontal-drop-downs select {
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top:0px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add these styles for the vertical scroll list */
+  .vertical-scroll-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Adjust the number of columns as needed */
+    gap: 100px; /* Adjust the gap between columns as needed */
+    max-height: 200px; /* Set the max height as needed */
+    overflow-y: auto;
+    border: 1px solid #ccc; /* Add border for styling */
+    margin-left: 20px; /* Adjust the margin as needed */
+    margin-top:20px;
+  }
+  
+  .vertical-scroll-list ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .vertical-scroll-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Add a border between list items */
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .vertical-scroll-list li:last-child {
+    border-bottom: none; /* Remove border for the last item */
+  }
+  
+  .buttonrec button[variant="text"]{
+    margin-top: 0px;
+    margin-left: 1000px;
+    padding: 10px;
+    color: rgb(255, 255, 255); /* Change text color when active */
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    background-color: #1f9c1f;
+    border-radius: 5px;
+  }
+  

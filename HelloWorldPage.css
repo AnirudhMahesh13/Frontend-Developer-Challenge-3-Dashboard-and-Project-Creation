@@ -1,0 +1,195 @@
+/* HelloWorldPage.css */
+body {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1 {
+  color: green;
+}
+
+.rectangleStyle {
+  width: 1200px;
+  height: 1700px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-left: 300px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+.minirectangleStyle {
+  width: 1000px;
+  height: 10px;
+  background-color: rgb(247, 227, 168);
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+  border-color: rgb(249, 195, 34);
+  margin-left: 100px;
+}
+
+.minirectangleStyle2 {
+  width: 1000px;
+  height: 650px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+  margin-left: 100px;
+}
+
+.minirectangleStyle3 {
+  width: 1000px;
+  height: 300px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+  margin-left: 100px;
+}
+
+p1 {
+  margin-top: -20px;
+  margin-bottom: 100px;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 16px;
+}
+
+.input-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-column {
+  flex: 1;
+  margin-right: 16px;
+}
+
+.input-with-image {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-image {
+  width: 32px;
+  height: 30px;
+}
+
+.hover-text {
+  display: none;
+  position: absolute;
+  margin-left: 390px;
+  margin-top: -50px;
+  transform: translateX(-50%);
+  background-color: rgb(88, 166, 10);
+  padding: 10px;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+.hover-text2 {
+  display: none;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 0px;
+  transform: translateX(-50%);
+  background-color: rgb(88, 166, 10);
+  padding: 10px;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+.input-with-image:hover .hover-text {
+  display: block;
+}
+
+.input-with-image2:hover .hover-text {
+  display: block;
+}
+
+.input-with-image img:hover {
+  filter: brightness(1.5);
+  cursor: pointer;
+}
+
+.input-with-image2 img:hover {
+  filter: brightness(1.5);
+  cursor: pointer;
+}
+
+.input-column input {
+  width: 300px;
+  height: 40px;
+}
+
+.space {
+  height: 50px;
+}
+
+.search-menu select {
+  width: 325px;
+  height: 40px;
+}
+
+.dropdown {
+  width: 325px;
+  margin-left: 50px;
+  
+}
+
+.dropdown1 {
+  width: 325px;
+  margin-left: 50px;
+  
+}
+
+.dropdown-btn {
+  width: 310px;
+  height: 50px;
+  margin-left: 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+.dropdown-btn1 {
+  width: 310px;
+  height: 50px;
+  margin-left: 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+.addspace{
+margin-top:100px;
+}
+
+.bottombuttons button{
+margin-top:-50px;
+margin-bottom:10px;
+width: 300px;
+height: 70px;
+background-color: #fcfcfc;
+}
+
+
+.bottombuttons button:hover{
+  margin-top:-50px;
+  margin-bottom:10px;
+  width: 300px;
+  height: 70px;
+  background-color: #eb0000;
+  }

@@ -1,0 +1,25 @@
+/* ContentSquare2.css */
+.content-square2 {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5); /* Box shadow for all sides */
+  }
+  
+  
+.button button[variant="text"]{
+  margin-top: 30px;
+  margin-left: 200px;
+  padding: 10px;
+  color: rgb(255, 255, 255); /* Change text color when active */
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  background-color: #1f9c1f;
+  border-radius: 5px;
+}
+
+.con{
+  margin-left: 190px;
+  
+}
